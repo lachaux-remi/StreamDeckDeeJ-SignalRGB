@@ -11,7 +11,7 @@ export const ControllableParameters = () => [
     { property: "ShutdownColor", group: "lighting", label: "Shutdown Color", min: "0", max: "360", type: "color", default: "#000000" },
 ];
 export const Validate = endpoint => endpoint.interface === 2;
-export const ImageUrl = () => "https://media.discordapp.net/attachments/445019077778604052/1388252999150731264/streamdeck_deej.png?ex=68604edb&is=685efd5b&hm=2e87d16f8aa8247d0811137ddba7394b180b659d2c3fd4ad0843411c0241b57b&=&format=webp&quality=lossless&width=960&height=960";
+export const ImageUrl = () => "https://raw.githubusercontent.com/lachaux-remi/StreamDeckDeeJ-SignalRGB/main/assets/streamdeck_deej.png";
 
 const channelArray = [ [ "Deck", 16 ] ];
 
